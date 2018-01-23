@@ -1,24 +1,21 @@
-# My first cool idea {#slug-one}
+# Beyond Spotify: Multidimensional Music Recommendations {#music-discovery}
 
 #### Keywords {-}
 
-yaba, daba, do
+music, discovery, multidimensional, Pandora, Spotify
 
-## A beginning.
+## The Problems with Music Algorithms
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Music recommendation algorithms have been popular for the better part of twenty years. [Pandora](https://www.pandora.com/) blazed the trail in the early 2000s and [Spotify](https://www.spotify.com/us/) and others are now trying to assume control of that realm. Despite increasingly complex algorithms trying to identify matches between music and consumers, though, several dimensions are missing, and the results suffer. As a result, artists, music apps, and record labels are not capitalizing on potential income from a sizable market: lazy people. [Published research](https://skynetandebert.com/2015/04/22/music-was-better-back-then-when-do-we-stop-keeping-up-with-popular-music/) shows that people become set in their musical tastes as time passes. Many lose the drive to find new music by the time they approach age 30. Competing life priorities take precedence. Further, over time, in the way that some forget how to make friends as adults, people forget how to find new artists. I believe the interest is there, though, and that there is vast, untapped potential in the passive consumer.
 
-## A middle.
+## Music Discovery: Market Opportunities
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+There are tremendous opportunities to enhance the dimensions behind music discovery. The existing algorithms are powerful from a strictly musical standpoint, but there are some basic variables that are evidently not considered. If an algorithm has a base of thirty independent rock songs with female vocals, but three songs later, spits out AC/DC, something is wrong with the algorithm. I plan to attack this issue from multiple angles:
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+1.	First, we need to harness the non-musical links between artists. These links will be evident on social media; we can find them by pulling data from Facebook, Twitter, Instagram, and more music-focused apps like Songkick and Bandcamp. Two bands that are commonly mentioned by a single user have a clear link that goes beyond the sound of the songs.
+2.	Next, we can enhance the discovery algorithms by adding intangible characteristics to the calculus. I would include concepts like emotional intensity, male vs. female vocals, and independent vs. mainstream music.
+3.	Finally, we need to harness the power of the obsessive fan. Most artists will have at least a few die hard fans. However, some artists are magnets for them, and this does not appear to be related to overall popularity. We turn again to social media data to identify this characteristic. Repeated mentions of the same band by a user would be a noteworthy indicator. A user posting multiple pictures of a band over a short period from different cities demonstrates that they are willing to travel to several locations to see an artist perform. This is a mark of an obsessive fan. Obsessive fans will go to the ends of the Earth for an artist that they love, but they can lose focus on any other music, particularly new music. Marketing to these fans can be a goldmine.
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+## Capitalizing on an Underrepresented Fan Base
 
-## An end.
-
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+There are major players in the music industry, but none of them have fully capitalized on the potential of the passive listener. Similarly, obsessive fans represent an opportunity: if we convert their single fixation into multiple passions, we can generate large revenues with minimal effort. The buying power of the passive fan and the obsessive fan represent unrealized profits for any music-related business. If we introduce them to new music without making them work for it, we can dramatically improve the consumer experience, and, ultimately, secure their entertainment dollars.
