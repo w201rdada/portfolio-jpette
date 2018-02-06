@@ -4,14 +4,14 @@ author: "John Pette"
 date: "MIDS Spring 2018"
 site: bookdown::bookdown_site
 documentclass: book
+bibliography: references.bib
+link-citations: yes
+biblio-style: apalike
 
 ---
 
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
-bibliography: references.bib
-link-citations: yes
-biblio-style: apalike
 readLines('https://www.zotero.org/api/users/4689565/items/top?start=0&limit=null&format=bibtex&itemKey=M8CI7PAW&key=BIGHhSXREPzsDa8sNCom0Odq&v=1') %>% writeLines('references.bib')
 library(magrittr)
 ```
