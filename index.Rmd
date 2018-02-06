@@ -4,10 +4,9 @@ author: "John Pette"
 date: "MIDS Spring 2018"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: references.bib
-link-citations: yes
+bibliography: ["references.bib"]
 biblio-style: apalike
-
+link-citations: true
 ---
 
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
