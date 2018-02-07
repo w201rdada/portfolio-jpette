@@ -4,7 +4,7 @@ author: "John Pette"
 date: "MIDS Spring 2018"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: ["references.bib", "refs2.bib"]
+bibliography: references.bib
 biblio-style: apalike
 link-citations: true
 ---
@@ -12,7 +12,7 @@ link-citations: true
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
-readLines('https://www.zotero.org/api/users/4689565/items/top?start=0&limit=null&format=bibtex&itemKey=M8CI7PAW&key=BIGHhSXREPzsDa8sNCom0Odq&v=1') %>% writeLines('references.bib')
+readLines('https://www.zotero.org/api/users/4689565/items/top?start=0&limit=25&format=bibtex&itemKey=AXZRYX65%2CQRN5L6D5%2CM8CI7PAW&key=BIGHhSXREPzsDa8sNCom0Odq&v=1') %>% writeLines('references.bib')
 ```
 
 
