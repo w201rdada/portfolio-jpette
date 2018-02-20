@@ -1,25 +1,31 @@
-# My second cool idea {#slug-two}
+# Projecting Long-term Value of Collectible Vinyl Records {#vinyl-value-projections}
 
 #### Keywords {-}
 
-yaba, daba, do
+vinyl, records, music, collectible, value
 
-## A beginning.
+## The Vinyl Market
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+I have been buying and selling rare vinyl records since 1991. People declared the death of the vinyl format long ago, as CDs took over and were then summarily supplanted by digital formats. Throughout this time, there has been a consistent base of record collectors. The format took off anew to an unexpected degree, and many more collectors have entered the market. As with any collectible, the values of rare records fluctuate over time. Anecdotally, there is a predictable cycle to changes in value. I plan to use available data to demonstrate that cycle and determine why. With a detailed model demonstrating the effects, I will build an application for buyers and sellers that helps them achieve optimal value in their activities.
 
-## A middle.
+## Buyer Behavior in a World of Sales Data
+Ultimately, this is a fundamental question about human behavior. Collectible value is a social construct which generally follows economic demand principles. At the heart of this exploration is one main question: why do people change their ideas of what a collectible is worth, and can we predict it?
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+In order for this study to show conclusive results, I would need to examine large samples of data over many years. However, there is enough public data available to provide a good approximation of the collectible life cycle. 
+I plan to pull data from three sources:
 
+1. eBay sales records, which are complete, but are only available publicly for short periods of time.
+2. Discogs sales records, which can be accessed by a publicly available API. 
+3. Popsike, a database of eBay sales of records that extends back for several years, but is partially incomplete.
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+I will examine the price history for a sample of test items in an attempt to identify patterns in fluctuations of value. With a large enough sample size, trends should be evident.
 
+There are some limitations to each data source: eBay records do not show historical sales beyond 60 days, Discogs records only display the last 10-20 sales of an item, and Popsike records do not catalogue every transaction - they omit everything below a certain dollar threshold. The data also do not account for external events that have effects on the market: when the global economy crashed in 2008, collectible values plummeted, presumably as people refocused on life’s necessities. This price drop had a ripple effect on prices for years afterward. 
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+Despite these drawbacks, currently available data will provide useful insights into overall trends. Over time, I will expand the sample size and increase the quality of the model. At that time, I can also account for external market events and seasonal trends.
 
-## An end.
+## Enabling Collectors and Vendors
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+If this model demonstrates meaningful results, it will be an extremely valuable resource for collectors or investors who are trying to determine when to buy or how long to hold items before selling. Of course, too much knowledge can be a bad thing. If all buyers and sellers had this information, it would artificially skew values, which, in the end, would change the model. 
+
+Once I complete the model to my satisfaction, I will expand it to explore additional questions about the life cycle of collectibles, such as: what are the determining factors behind whether a collectible loses all value over a long period of time or becomes prohibitively expensive? This is not a simple question or scarcity or popularity of the subject and will require deeper examination. 
