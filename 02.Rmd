@@ -1,31 +1,38 @@
-# Projecting Long-term Value of Collectible Vinyl Records {#vinyl-value-projections}
+# Projecting Long-term Value of Collectible Vinyl Records {#vinyl-value}
 
 #### Keywords {-}
 
-vinyl, records, music, collectible, value
+vinyl, records, music, collectible, value forecasting, valuation, projection, investment
 
 ## The Vinyl Market
 
-I have been buying and selling rare vinyl records since 1991. People declared the death of the vinyl format long ago, as CDs took over and were then summarily supplanted by digital formats. Throughout this time, there has been a consistent base of record collectors. The format took off anew to an unexpected degree, and many more collectors have entered the market. As with any collectible, the values of rare records fluctuate over time. Anecdotally, there is a predictable cycle to changes in value. I plan to use available data to demonstrate that cycle and determine why. With a detailed model demonstrating the effects, I will build an application for buyers and sellers that helps them achieve optimal value in their activities.
+People declared the death of the vinyl record music format long ago, as CDs took over and were then summarily supplanted by digital formats. Throughout this time, there has been a consistent base of record collectors. The format has taken off anew to an unexpected degree, and many more collectors have entered the market. 2017 saw 14.32 million new records sold in the U.S., the largest volume of sold since Nielsen began tracking vinyl sales in 1991[@noauthor_u.s._nodate]_. This behavior transcends nostalgia; MusicWatch completed a survey in 2016 that showed that 34% of new vinyl buyers (and 27% of used vinyl buyers) were in the 13-24 age range[@noauthor_mid-year_nodate].
+
+The used record market is thriving as well. In the past 60 days, [eBay](https://www.ebay.com/sch/Records/176985/i.html?_from=R40&_nkw&LH_ItemCondition=3000&LH_PrefLoc=2&LH_Complete=1&LH_Sold=1&rt=nc&_trksid=p2045573.m1684) shows a global sales total of nearly 1.2 million records. In its [2017 annual report](https://blog.discogs.com/en/state-of-discogs-2017/), Discogs declared nearly 8 million new and used sales through its marketplace[@noauthor_music_nodate]. As with any collectible, the values of rare records fluctuate over time. Anecdotally, there is a predictable cycle to changes in value. Can publicly available data demonstrate that cycle and determine why? With a detailed model demonstrating the effects, I will build an application for buyers and sellers that helps them achieve optimal value in their activities.
 
 ## Buyer Behavior in a World of Sales Data
 Ultimately, this is a fundamental question about human behavior. Collectible value is a social construct which generally follows economic demand principles. At the heart of this exploration is one main question: why do people change their ideas of what a collectible is worth, and can we predict it?
 
-In order for this study to show conclusive results, I would need to examine large samples of data over many years. However, there is enough public data available to provide a good approximation of the collectible life cycle. 
-I plan to pull data from three sources:
+In order to show conclusive results, this study would need to examine large samples of data over many years. However, there is enough public data available to provide a good approximation of the collectible life cycle. 
 
-1. eBay sales records, which are complete, but are only available publicly for short periods of time.
-2. Discogs sales records, which can be accessed by a publicly available API. 
-3. Popsike, a database of eBay sales of records that extends back for several years, but is partially incomplete.
+I plan to examine data from two main sources:
 
-I will examine the price history for a sample of test items in an attempt to identify patterns in fluctuations of value. With a large enough sample size, trends should be evident.
+1. [eBay](https://www.ebay.com) sales records, which are complete and available by API, but are only available publicly for 60 days.
+2. [Discogs](https://www.discogs.com) marketplace sales records, which are publicly available through an API. 
 
-There are some limitations to each data source: eBay records do not show historical sales beyond 60 days, Discogs records only display the last 10-20 sales of an item, and Popsike records do not catalogue every transaction - they omit everything below a certain dollar threshold. The data also do not account for external events that have effects on the market: when the global economy crashed in 2008, collectible values plummeted, presumably as people refocused on life’s necessities. This price drop had a ripple effect on prices for years afterward. 
+The study will examine the price history for a sample of test items in an attempt to identify patterns in fluctuations of value. With a large enough sample size, trends should be evident. 
 
-Despite these drawbacks, currently available data will provide useful insights into overall trends. Over time, I will expand the sample size and increase the quality of the model. At that time, I can also account for external market events and seasonal trends.
+There are some limitations to each data source: eBay records do not show historical sales beyond 60 days and Discogs records only display the last 10-20 sales of an item. If I am able to partner directly with these companies through an agreement, I may have access to a larger sample of data.  
+
+Discogs and eBay represent the largest consolidated marketplaces for used music, but they do not constitute the full market. Brick-and-mortar stores are ubiquitous, and their transaction data will never be available; their sales would likely show greater price disparities due to their smaller quantities of consumers, some of whom have more limited market information. However, this should not be a major detractor; Discogs and eBay should be more accurate models of value because they allow for global competition. While not every consumer uses them, serious collectors have no choice but to monitor them. 
+
+The data also do not account for external events that have effects on the market: when the global economy crashed in 2008, collectible values plummeted, presumably as people refocused on life’s necessities. This price drop had a ripple effect on prices for years afterward. 
+
+Despite these drawbacks, currently available data will provide useful insights into overall trends. Over time, I will expand the sample size and increase the quality of the model, pairing the data with forecasting software. At that stage, I can also account for external market events and seasonal trends.
+
 
 ## Enabling Collectors and Vendors
 
-If this model demonstrates meaningful results, it will be an extremely valuable resource for collectors or investors who are trying to determine when to buy or how long to hold items before selling. Of course, too much knowledge can be a bad thing. If all buyers and sellers had this information, it would artificially skew values, which, in the end, would change the model. 
+If this model demonstrates meaningful results, it will be an extremely valuable resource for collectors or investors who are trying to determine when to buy or how long to hold items before selling. Of course, if all buyers and sellers had this information, it would shift values toward market efficiency, which, in the end, would change the model to one of basic demand. While a very different industry, the U.S. Agency for International Development (USAID) demonstrates this effect frequently in supporting international farmers; by providing farmers in developing countries with market information, USAID has been able to transform agricultural markets, ensuring that these farmers can achieve proper market prices[@noauthor_usaid_nodate].
 
-Once I complete the model to my satisfaction, I will expand it to explore additional questions about the life cycle of collectibles, such as: what are the determining factors behind whether a collectible loses all value over a long period of time or becomes prohibitively expensive? This is not a simple question or scarcity or popularity of the subject and will require deeper examination. 
+When sufficiently complete, this collectible valuation model can be expanded to explore additional questions about the life cycle of collectibles, such as, “why do certain collectibles lose all value over a long period of time or become prohibitively expensive?” This is not a simple question of scarcity or popularity of the subject, and will require deeper examination. 
