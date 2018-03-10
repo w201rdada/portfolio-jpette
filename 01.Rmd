@@ -1,5 +1,9 @@
 # Beyond Spotify: Harnessing the Human Element of Music Recommendations {#music-discovery}
 
+#### Abstract {-}
+
+(ref:abs1)
+
 #### Keywords {-}
 
 music, discovery, passive, listener, Pandora, Spotify

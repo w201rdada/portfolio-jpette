@@ -1,5 +1,9 @@
 # Projecting Long-term Value of Collectible Vinyl Records {#vinyl-value}
 
+#### Abstract {-}
+
+(ref:abs2)
+
 #### Keywords {-}
 
 vinyl, records, music, collectible, value forecasting, valuation, projection, investment
