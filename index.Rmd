@@ -12,7 +12,7 @@ link-citations: true
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
-readLines('https://www.zotero.org/api/users/4689565/items/top?start=0&limit=25&format=bibtex&itemKey=2KP9AV2A%2CXXT9U4R6%2CAXZRYX65%2CQRN5L6D5%2CVINYYPAU%2CM8CI7PAW%2C9PGX2I68%2CSLPPV7AV&key=BIGHhSXREPzsDa8sNCom0Odq&v=1') %>% writeLines('references.bib')
+readLines('https://www.zotero.org/api/users/4689565/collections/P5AYB86B/items/top?start=0&limit=25&format=bibtex&itemKey=QIEJHK3I%2CJUHVCV6K%2CQLS2UWPC%2C7RYRA2NY%2CUNTJKXQ4%2CZVFLBWHR%2CKXZ8M7YC%2CBFR56DQ2&key=BIGHhSXREPzsDa8sNCom0Odq&v=1') %>% writeLines('references.bib')
 ```
 
 
