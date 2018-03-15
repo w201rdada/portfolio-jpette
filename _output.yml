@@ -13,7 +13,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/w201rdada/portfolio-jpette" target="blank">GitHub</a></li>
         <li><a href="https://www.ischool.berkeley.edu/people/john-pette" target="blank">UC Berkeley</a></li>
-        <li><a href="https://www.linkedin.com/in/john-pette-89186b18" target="blank">LinkedIn</a></li>       
+        <li><a href="https://www.linkedin.com/in/john-pette-89186b18" target="blank">LinkedIn</a></li>
     sharing:
       facebook: no
       twitter: @johnpette
