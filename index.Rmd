@@ -19,7 +19,7 @@ readLines('https://www.zotero.org/api/users/4689565/collections/P5AYB86B/items/t
 # Welcome!
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='1994: One of John's earliest rare record finds.',fig.align='center',out.width='50%'}
+```{r hello-world,echo=FALSE,fig.cap='1994: One of John\'s earliest rare record finds.',fig.align='center',out.width='50%'}
 knitr::include_graphics('img/IMG_0038.jpg')
 ```
 
